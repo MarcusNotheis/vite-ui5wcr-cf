@@ -1,0 +1,10 @@
+---
+applications:
+  - name: vite-ui5wcr-cf
+    routes:
+      - route: 'https://YOUR_HOST_NAME.YOUR_CF_LANDSCAPE_DOMAIN'
+    buildpacks:
+      - https://github.com/cloudfoundry/nodejs-buildpack.git
+    memory: 256MB
+    instances: 1
+    services: []
