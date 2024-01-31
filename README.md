@@ -3,7 +3,7 @@
 This repository demonstrates how you can deploy an app using Vite and UI5 Web Components for React to Cloud Foundry.
 This repo is based on our [vite template](https://github.com/SAP/ui5-webcomponents-react/tree/main/examples/vite-ts).
 
-For running the app on Cloud Foundry, I recommend using the `[@sap/approuter](https://www.npmjs.com/package/@sap/approuter)` package.
+For running the app on Cloud Foundry, we recommend using the [@sap/approuter](https://www.npmjs.com/package/@sap/approuter) package.
 The `xs-app.json` file contains all the routing and it is started via the package.json `start` script.
 
 The `manifest.yml` contains all the Cloud Foundry specific settings like the buildpack which is used and the route for the application.
